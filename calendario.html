@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejemplo de un simple calendario en JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <h1 class="title">Calendario</h1>
+        <div class="calendar">
+            <div class="calendar__info">
+                <div class="calendar__prev" id="prev-month">&#9664;</div>
+                <div class="calendar__month" id="month"></div>
+                <div class="calendar__year" id="year">2020</div>
+                <div class="calendar__next" id="next-month">&#9654;</div>
+            </div>
+            <div class="calendar__week">
+                <div class="calendar__day calendar__item">Lunes</div>
+                <div class="calendar__day calendar__item">Martes</div>
+                <div class="calendar__day calendar__item">Miercoles</div>
+                <div class="calendar__day calendar__item">Jueves</div>
+                <div class="calendar__day calendar__item">Viernes</div>
+                <div class="calendar__day calendar__item">Sabado</div>
+                <div class="calendar__day calendar__item">Domingo</div>
+            </div>
+            <div class="calendar__dates" id="dates"></div>
+        </div>
+         <script src="main.js"></script>
+    </body>
+</html>
